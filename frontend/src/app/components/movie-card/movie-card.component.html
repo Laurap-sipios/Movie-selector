@@ -1,0 +1,13 @@
+<div class="movie-card">
+  <img
+    class="poster"
+    src="https://image.tmdb.org/t/p/w500/{{
+      movie.posterPath ? movie.posterPath : ''
+    }}"
+    alt="Movie Poster"
+  />
+  <div class="movie-details">
+    <h2 class="title">{{ movie.title }}</h2>
+    <p class="release-date">{{ movie.releaseDate }}</p>
+  </div>
+</div>

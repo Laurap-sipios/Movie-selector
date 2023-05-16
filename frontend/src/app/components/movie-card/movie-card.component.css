@@ -1,0 +1,40 @@
+/* Define styles for the movie card container */
+.movie-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    max-width: 300px;
+    margin-top: 100px; /* or padding-top: 20px; */
+  }
+  
+  /* Define styles for the movie poster image */
+  .movie-card img.poster {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Define styles for the movie details container */
+  .movie-card .movie-details {
+    padding: 16px;
+  }
+  
+  /* Define styles for the movie title */
+  .movie-card .movie-details .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  /* Define styles for the movie release date */
+  .movie-card .movie-details .release-date {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 16px;
+  }
+  
+ 
+  
