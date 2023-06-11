@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class MovieService {
-  private baseUrl = 'http://localhost:8080/movies';
+  private baseUrl = 'http://localhost:8080/movie';
   constructor(private http: HttpClient) {}
 
   getPopularMovies(): Observable<any> {
