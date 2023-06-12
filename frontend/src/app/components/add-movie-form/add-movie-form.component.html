@@ -1,0 +1,6 @@
+<p>add-movie-form works!</p>
+<form (ngSubmit)="submitForm()" #myForm="ngForm">
+  <input type="number" name="id" [(ngModel)]="formData.id" required />
+  <input type="text" name="name" [(ngModel)]="formData.name" required />
+  <button type="submit" [disabled]="!myForm.form.valid">Submit</button>
+</form>
